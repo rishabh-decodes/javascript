@@ -38,4 +38,21 @@ syntax:
  }  
  console.log( " sum of first " + n + " natural number is " + sum );
 
- 
+
+ // While loop
+ /* The While loop keeps repeating an acion util an associated condition returns false.
+    syntax:  
+            while (test condition)
+            {
+               body of the loop;
+               increment/decrement;
+            }
+*/
+
+let n = prompt("Enter the value of n")
+n = Number.parseInt(n)
+let i = 0;
+while(i<n){
+    console.log(i)
+    i++;
+}
