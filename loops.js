@@ -2,39 +2,40 @@
 // Loops are used to execute a peice of code again and again.
 
 
-// For Loop
+//For loop
 
-//for (let i = 1; i <= 5; i++)
-// here first i is to initialize, and second i tells us about the stoping condition and the third i is for updation.
+/*   The for loop is frequently used, usually where the loop will be traversed a fixed number of times.
 
- // for (let count = 1; count <=5; count ++) {
-   // console.log("Hello World");
-   //This code prints "Hello World" five times.
-
-
-// While loop
-
-let count = 1;
-
-while(count <= 10){
-   document.write("Rishabh");
-   count++;
-}
+syntax: 
+         for( initialization; test condition; increment or decrement)
+         {
+              block of statements;
+         }
+ */
 
 
-// code to print the sum of even numbers from 1 to 100
+ for (i=0; i<5; i++)
+ {
+    document.write(i + "<br>");
+ }
 
-let counter = 1;
-let sum = 0;
+ // Another way to write for loop
 
-while(counter <=100){
-   if(counter % 2 == 0){
-       sum = sum + counter;
-     }
-     counter++;
-}
+ var i=0;
+ for( ; i<5; i++)
+    {
+        document.write(i + "<br>");
+    }
+    
 
-document.write(sum);
+ //program to add first n natural numbers
+ let sum = 0
+ let n = prompt("Enter the value of n")
+ n = Number.parseInt(n)
+ for (let i = 0; i < n; i++){
+     sum += (i+1)
+     console.log((i+1), "+")
+ }  
+ console.log( " sum of first " + n + " natural number is " + sum );
 
-
-// Do-while Loop
+ 
