@@ -56,3 +56,28 @@ while(i<n){
     console.log(i)
     i++;
 }
+
+let i = 0;
+while (i < 3) { // shows 0, then 1, then 2
+  console.log( i );
+  i++;
+}
+
+//Do while
+/* syntax:
+         do{
+          // loop body
+         }  While (condition);
+
+*/
+// do while loop simply means if the condition is true or false it will execute atleast one time.
+
+
+let n = prompt("Enter the value of n")
+n = Number.parseInt(n)
+
+let i = 10;
+do{
+    console.log(i)
+    i++;
+}while (i < n)
